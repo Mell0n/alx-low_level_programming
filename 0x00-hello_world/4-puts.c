@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - A program that prints a line wiht pust function
- * Return: 0 (Success)
+ * main - Entry
+ * Return: 0
  */
 int maim(void)
 {
