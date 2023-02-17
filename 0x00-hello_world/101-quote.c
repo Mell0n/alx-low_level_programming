@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints to staring
- * Description: Prints "and...." without pust
+ * main - Entry
  * Return: 1
  */
 int main(void)
