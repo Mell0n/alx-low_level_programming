@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* group job */
-/* function main whit betty */
+/* more headers goss there */
+/*betty style doc for function main goss there */
 /**
- * main - Entry
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* the code will be here */
+	/* your code goss there */
 	m = n % 10;
 	if (m > 5)
 		printf("last digit of %d is %d and is greatre than 5\n", n, m);
