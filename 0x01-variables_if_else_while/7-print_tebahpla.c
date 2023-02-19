@@ -1,18 +1,16 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Smile in the mirror
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	char c;
 
-	c = 'z';
-	while
-		(c >= 'a') {
-			putchar(c);
-			c--;
-		}
+	for (c = 'z' ; c >= 'a' ; c--)
+	{
+		putchar(c);
+	}
 	putchar('\n');
 	return (0);
 }
