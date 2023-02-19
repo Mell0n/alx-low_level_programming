@@ -5,26 +5,26 @@
  */
 int main(void)
 {
-	int n;
-	int i;
-	int h;
+	int m;
+	int e;
+	int w;
 
-	for (h = 0 ; h != 8 ; h++)
+	for (w = 0 ; w != 8 ; w++)
 	{
-		for (n = h + 1 ; n != 9 ; n++)
+		for (m = w + 1 ; m != 9 ; m++)
 		{
-			i = n + 1;
+			e = m + 1;
 			do {
-				putchar('0' + h);
-				putchar('0' + n);
-				putchar('0' + i);
-				if (h != 7)
+				putchar('0' + w);
+				putchar('0' + m);
+				putchar('0' + e);
+				if (w != 7)
 				{
 					putchar(',');
 					putchar(32);
 				}
-				i++;
-			} while (i != 10);
+				e++;
+			} while (e != 10);
 		}
 	}
 	putchar('\n');
