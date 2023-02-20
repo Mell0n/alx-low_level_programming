@@ -6,16 +6,21 @@
  * (every other function (printf, puts, etc…) is forbidden)
  * All your code should be in the main functionYou
  * can only use putchar twice in your code
- * Returnv Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
+	int n = 97;
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (n <= 122)
 	{
-		if (c != 'e' && c != 'q')
-			putchar(c);
+		if (n == 101 || n == 113)
+		{
+			n++;
+			continue;
+		}
+		putchar(n);
+		n++;
 	}
 	putchar('\n');
 	return (0);
