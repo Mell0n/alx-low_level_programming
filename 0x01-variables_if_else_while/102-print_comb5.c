@@ -5,26 +5,41 @@
  */
 int main(void)
 {
-	int f;
-	int r;
-	int i;
+	int c = 0;
+	int f_d;
+	int l_d;
 
-	for (f = 0 ; f < 10 ; f++)
+	int c2;
+	int f_d2;
+	int l_d2;
+
+	while (c <= 98)
 	{
-		for (r = 0 ; r < 10 ; r++)
+		f_d = (c / 10 + '0');
+		l_d = (c % 10 + '0');
+		c2 = 0;
+		while (c2 <= 99)
 		{
-				for (i = 0 ; i < 10 ; i++)
-				{
-					putchar('0' + f);
-					putchar('0' + r);
-					putchar('0' + i);
-					if (!(f == 9 && r == 8))
+			f_d2 = (c2 / 10 + '0');
+			l_d2 = (c2 % 10 + '0');
+
+			if (c < c2)
+			{
+					putchar(f_d);
+					putchar(l_d);
+					putchar(' ');
+					putchar(f_d2);
+					putchar(l_d2);
+
+					if (c != 98)
 					{
 						putchar(',');
-						putchar(32);
+						putchar(' ');
 					}
-				}
+			}
+			c2++;
 		}
+		c++;
 	}
 	putchar('\n');
 	return (0);
