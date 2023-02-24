@@ -5,17 +5,20 @@
  * Description: prints
  * Return: void
  */
+
 void print_most_numbers(void)
 {
-	int a = 0;
+	int c;
 
-	while (a <= 9)
+	for (c = 48; c < 58; c++)
 	{
-		if (a != 2 || a != 4)
+		if (c != 50)
 		{
-			_putchar(a + '0');
+			if (c != 52)
+			{
+				_putchar(c);
+			}
 		}
-		a++;
 	}
 	_putchar('\n');
 }
