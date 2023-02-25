@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 
 #define MAIN_H
-
+/**
+ * File - main.h
+ * descv for all protypes
+ */
 int _putchar(char c);
 
 int main(void)
@@ -16,7 +19,7 @@ void print_numbers(void);
 
 void print_most_numbers(void);
 
-void more_number(void);
+void more_numbers(void);
 
 void print_line(int n);
 
