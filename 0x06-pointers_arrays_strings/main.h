@@ -1,7 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-int main(void)
+/**
+ * main - prototypes
+ * @c: All
+ * Return: 0
+ */
 
 int _putchar(char c);
 
